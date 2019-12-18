@@ -1,0 +1,12 @@
+{
+    "auto": {
+        "Include": [
+            "Include/Playground/PlaygroundBus.h"
+        ],
+        "Source": [
+            "Source/PlaygroundModule.cpp",
+            "Source/PlaygroundSystemComponent.cpp",
+            "Source/PlaygroundSystemComponent.h"
+        ]
+    }
+}
