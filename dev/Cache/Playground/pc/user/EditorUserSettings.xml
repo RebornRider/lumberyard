@@ -1,0 +1,88 @@
+<ObjectStream version="3">
+	<Class name="UserSettingsContainer" version="3" type="{42C087CF-4F19-4DAF-B2B1-2927D94AA295}">
+		<Class name="AZStd::unordered_map" field="Map" type="{79C4F23B-19F1-58AE-9C3A-8CDFD2D00AB0}">
+			<Class name="AZStd::pair" field="element" type="{8B27CED2-6C1F-5A72-9D09-97458A077D47}">
+				<Class name="unsigned int" field="value1" value="475670885" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AZStd::intrusive_ptr" field="value2" type="{21609605-3020-5D04-A48B-895277FD0093}">
+					<Class name="ScriptCanvasEditorSettings" field="element" version="14" type="{D8D5453C-BFB8-4C71-BBAF-0F10FDD69B3F}">
+						<Class name="bool" field="m_showPreviewMessage" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+						<Class name="double" field="m_snapDistance" value="10.0000000" type="{110C4B14-11A8-4E9D-8638-5051013A56AC}"/>
+						<Class name="bool" field="m_showExcludedNodes" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+						<Class name="AZStd::unordered_set" field="m_pinnedDataTypes" type="{FFCBDB0B-6E88-5D5F-9554-E25FEDF8B1BF}">
+							<Class name="AZ::Uuid" field="element" value="{0CE9FA36-1E3A-4C06-9254-B7C73A732053}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="element" value="{3D80F623-C85C-4741-90D0-E4E66164E6BF}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="element" value="{5D9958E9-9F1E-4985-B532-FFFDE75FEDFD}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="element" value="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="element" value="{7894072A-9050-4F0F-901B-34B1A0D29417}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="element" value="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="element" value="{A0CA880C-AFE4-43CB-926C-59AC48496112}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="element" value="{110C4B14-11A8-4E9D-8638-5051013A56AC}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="element" value="{8379EB7D-01FA-4538-B64B-A6543B4BE73D}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+						</Class>
+						<Class name="bool" field="m_allowBookmarkViewpointControl" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+						<Class name="ToggleableConfiguration" field="DragCouplingConfiguration" version="1" type="{24E8CAE7-0B5E-4B5E-94CC-08B9148B4AB5}">
+							<Class name="bool" field="Enabled" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+							<Class name="int" field="TimeMS" value="750" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						</Class>
+						<Class name="ToggleableConfiguration" field="DragSplicingConfiguration" version="1" type="{24E8CAE7-0B5E-4B5E-94CC-08B9148B4AB5}">
+							<Class name="bool" field="Enabled" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+							<Class name="int" field="TimeMS" value="1000" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						</Class>
+						<Class name="ToggleableConfiguration" field="DropSplicingConfiguration" version="1" type="{24E8CAE7-0B5E-4B5E-94CC-08B9148B4AB5}">
+							<Class name="bool" field="Enabled" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+							<Class name="int" field="TimeMS" value="1000" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						</Class>
+						<Class name="ToggleableConfiguration" field="AutoSaveConfiguration" version="1" type="{24E8CAE7-0B5E-4B5E-94CC-08B9148B4AB5}">
+							<Class name="bool" field="Enabled" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+							<Class name="int" field="TimeMS" value="2000" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						</Class>
+						<Class name="ShakeToDespliceSettings" field="ShakeToDespliceConfiguration" version="1" type="{6401FA20-7A17-407E-81E3-D1389C9C70B7}">
+							<Class name="bool" field="Enabled" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+							<Class name="int" field="ShakeCount" value="3" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+							<Class name="float" field="ShakeLength" value="3.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="DeadZone" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="int" field="ShakeTime" value="1000" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+							<Class name="float" field="Straightness" value="65.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="int" field="VariableColumnSorting" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						<Class name="bool" field="ShowWarnings" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+						<Class name="bool" field="ShowErrors" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+						<Class name="bool" field="AllowNodeNudging" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+						<Class name="unsigned int" field="AlignmentTime" value="250" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+						<Class name="EdgePanningSettings" field="EdgePanningSettings" version="1" type="{38399A9B-8D4B-4198-AAA2-D1E8761F5563}">
+							<Class name="float" field="EdgePercent" value="5.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="ScrollSpeed" value="75.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="ScriptCanvasConstructPresets" field="ConstructPresets" version="1" type="{191DCCB3-670F-4243-813E-DF23BE838F45}">
+							<Class name="EditorConstructPresets" field="BaseClass1" version="1" type="{3A975CAB-5CD8-4496-8B1F-092952B37953}">
+								<Class name="AZStd::unordered_map" field="PresetMapping" type="{83CD2364-331A-503C-B5B4-923E2B0B6477}"/>
+							</Class>
+						</Class>
+						<Class name="StylingSettings" field="StylingSettings" version="1" type="{2814140B-0679-492F-BE37-F89DA1414E67}">
+							<Class name="unsigned int" field="ConnectionCurveType" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+							<Class name="unsigned int" field="DataConnectionCurveType" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+						</Class>
+						<Class name="bool" field="RememberOpenCanvases" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+						<Class name="ZoomSettings" field="ZoomSettings" version="2" type="{276D3E97-B38C-4A3D-A484-E5A5D0A2D942}">
+							<Class name="float" field="MinZoom" value="2.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{8B27CED2-6C1F-5A72-9D09-97458A077D47}">
+				<Class name="unsigned int" field="value1" value="3358758529" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AZStd::intrusive_ptr" field="value2" type="{21609605-3020-5D04-A48B-895277FD0093}">
+					<Class name="QTreeViewStateSaverData" field="element" version="2" type="{CA0FBE7A-232C-4595-9824-F4B5C50FA7B4}">
+						<Class name="AZStd::vector" field="m_expandedElements" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}"/>
+						<Class name="AZStd::vector" field="m_collapsedElements" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}"/>
+						<Class name="AZStd::vector" field="m_selectedElements" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}"/>
+						<Class name="AZStd::string" field="m_currentElement" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						<Class name="int" field="m_horizScrollLast" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						<Class name="int" field="m_vertScrollLast" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+					</Class>
+				</Class>
+			</Class>
+		</Class>
+	</Class>
+</ObjectStream>
+

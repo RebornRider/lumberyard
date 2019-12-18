@@ -1,0 +1,9 @@
+{
+    "description": "Configuration for Playground",
+    "visual_studio_name": "Playground",
+    "comment" : "",
+    "game_projects" : "Playground",
+
+    "modules" : [
+    ]
+}
