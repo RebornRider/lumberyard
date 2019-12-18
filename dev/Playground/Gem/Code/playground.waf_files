@@ -4,6 +4,8 @@
             "Include/Playground/PlaygroundBus.h"
         ],
         "Source": [
+            "Source/EmptyComponent.cpp",
+            "Source/EmptyComponent.h",
             "Source/PlaygroundModule.cpp",
             "Source/PlaygroundSystemComponent.cpp",
             "Source/PlaygroundSystemComponent.h"

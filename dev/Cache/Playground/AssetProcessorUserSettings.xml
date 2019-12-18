@@ -1,0 +1,34 @@
+<ObjectStream version="3">
+	<Class name="UserSettingsContainer" version="3" type="{42C087CF-4F19-4DAF-B2B1-2927D94AA295}">
+		<Class name="AZStd::unordered_map" field="Map" type="{79C4F23B-19F1-58AE-9C3A-8CDFD2D00AB0}">
+			<Class name="AZStd::pair" field="element" type="{8B27CED2-6C1F-5A72-9D09-97458A077D47}">
+				<Class name="unsigned int" field="value1" value="1975166056" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AZStd::intrusive_ptr" field="value2" type="{21609605-3020-5D04-A48B-895277FD0093}">
+					<Class name="SavedState" field="element" version="1" type="{38930360-DB02-445A-9CA0-3D1FB07B8236}">
+						<Class name="AZStd::vector" field="m_tabSettings" type="{AE02698B-4E56-55AC-A030-55D9F206EB3E}">
+							<Class name="TabSettings" field="element" version="1" type="{2A3D8781-0EF3-4C72-B362-412000CE1A6B}">
+								<Class name="AZStd::string" field="window" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="AZStd::string" field="tabName" value="Debug" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="AZStd::string" field="textFilter" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="filterFlags" value="15" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+							</Class>
+							<Class name="TabSettings" field="element" version="1" type="{2A3D8781-0EF3-4C72-B362-412000CE1A6B}">
+								<Class name="AZStd::string" field="window" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="AZStd::string" field="tabName" value="Messages" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="AZStd::string" field="textFilter" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="filterFlags" value="7" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+							</Class>
+							<Class name="TabSettings" field="element" version="1" type="{2A3D8781-0EF3-4C72-B362-412000CE1A6B}">
+								<Class name="AZStd::string" field="window" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="AZStd::string" field="tabName" value="Warnings/Errors Only" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="AZStd::string" field="textFilter" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="filterFlags" value="6" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+							</Class>
+						</Class>
+					</Class>
+				</Class>
+			</Class>
+		</Class>
+	</Class>
+</ObjectStream>
+

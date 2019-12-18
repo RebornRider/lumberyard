@@ -14,10 +14,10 @@
 							<Class name="AZ::Uuid" field="element" value="{5D9958E9-9F1E-4985-B532-FFFDE75FEDFD}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 							<Class name="AZ::Uuid" field="element" value="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 							<Class name="AZ::Uuid" field="element" value="{7894072A-9050-4F0F-901B-34B1A0D29417}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="element" value="{8379EB7D-01FA-4538-B64B-A6543B4BE73D}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 							<Class name="AZ::Uuid" field="element" value="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 							<Class name="AZ::Uuid" field="element" value="{A0CA880C-AFE4-43CB-926C-59AC48496112}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 							<Class name="AZ::Uuid" field="element" value="{110C4B14-11A8-4E9D-8638-5051013A56AC}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
-							<Class name="AZ::Uuid" field="element" value="{8379EB7D-01FA-4538-B64B-A6543B4BE73D}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 						</Class>
 						<Class name="bool" field="m_allowBookmarkViewpointControl" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 						<Class name="ToggleableConfiguration" field="DragCouplingConfiguration" version="1" type="{24E8CAE7-0B5E-4B5E-94CC-08B9148B4AB5}">
@@ -73,10 +73,34 @@
 				<Class name="unsigned int" field="value1" value="3358758529" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				<Class name="AZStd::intrusive_ptr" field="value2" type="{21609605-3020-5D04-A48B-895277FD0093}">
 					<Class name="QTreeViewStateSaverData" field="element" version="2" type="{CA0FBE7A-232C-4595-9824-F4B5C50FA7B4}">
-						<Class name="AZStd::vector" field="m_expandedElements" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}"/>
-						<Class name="AZStd::vector" field="m_collapsedElements" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}"/>
-						<Class name="AZStd::vector" field="m_selectedElements" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}"/>
-						<Class name="AZStd::string" field="m_currentElement" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						<Class name="AZStd::vector" field="m_expandedElements" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="Gems" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/PhysicsEntities" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/PhysicsEntities/Assets" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/PhysicsEntities/Assets/Entities" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointCamera" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointCamera/Assets" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointCamera/Assets/Editor" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointCamera/Assets/Editor/Icons" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointCamera/Assets/Slices" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointCamera/Assets/Slices/Camera" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointMovement" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointMovement/Assets" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointMovement/Assets/Editor" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointMovement/Assets/Editor/Icons" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointMovement/Assets/Editor/Icons/Components" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+						<Class name="AZStd::vector" field="m_collapsedElements" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="Gems/Camera/Assets" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Gems/Camera" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Engine" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Editor" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="element" value="Playground" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+						<Class name="AZStd::vector" field="m_selectedElements" type="{99DAD0BC-740E-5E82-826B-8FC7968CC02C}">
+							<Class name="AZStd::string" field="element" value="Gems/StartingPointCamera/Assets/Slices/Camera/TopDownCamera.slice" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+						<Class name="AZStd::string" field="m_currentElement" value="Gems/StartingPointCamera/Assets/Slices/Camera/TopDownCamera.slice" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 						<Class name="int" field="m_horizScrollLast" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
 						<Class name="int" field="m_vertScrollLast" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
 					</Class>
