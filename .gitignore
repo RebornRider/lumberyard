@@ -97,6 +97,11 @@
 !**/TODO
 !**/waf
 
+!**/.gitattributes
+
+# In Playground, avoid ignoring files with the following extensions.
+!/dev/Playground/**/*.*
+
 # Make an exception to ignore specific directories
 # Most of these directories are brought in by executing git_bootstrap.
 /3rdParty
@@ -120,6 +125,7 @@
 /dev/Gems/Substance
 /dev/Tools/CrySCompileServer/x64
 /dev/Tools/LmbrSetup/Win.vc141.Debug
+/dev/Playground
 
 # Ignore ico files from Lumberyard folders but preserve ico files in project folders
 /dev/Code/**/*.ico
@@ -130,3 +136,4 @@
 /dev/SetupAssistantUserPreferences.ini
 /dev/_WAF_/environment.json
 /SetupAssistant.bat
+
